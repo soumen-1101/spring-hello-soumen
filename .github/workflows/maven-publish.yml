@@ -26,4 +26,4 @@ jobs:
       run: |
            mvn -B package --file pom.xml
            mkdir artifacts && cp target/*.jar artifacts
-           cd artifacts && ls
+           cd artifacts && pwd && ls -ltr
